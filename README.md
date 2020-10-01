@@ -3,7 +3,7 @@ Exploring algorithmic trading techniques applied to a basket of securities
 # Group 3 Project-2 (UofT FinTech Bootcamp)
 
 __Title__: Using Machine Learning to select a portfolio of stocks mimicking and beating S&P500<br />
-__Group members__: Amar Munipalle, Nitesh Jain, Sinthushan, Veldurai Lakshmanan <br />
+__Group members__: Amar Munipalle, Nitesh Jain, Sinthushan Sooriyakuamar, Veldurai Lakshmanan <br />
 
 ## 1. Introduction of the Project
 
@@ -19,7 +19,7 @@ This project uses Principal Component Analysis (PCA) to select a portfolio of st
 
 ### 1.2 Data sources and preparation
 
-The historical data of S&P500 was downloaded from Yahoo Finance and was manipulated using Pandas functions. Using this data, the daily returns of individual stocks and cumulative returns of S&P500 stocks was deterined.
+The historical data of S&P500 was downloaded from Yahoo Finance and was manipulated using Pandas functions. Using this data, the daily returns of individual stocks and cumulative returns of S&P500 stocks was determined.
 
 ![Individual Returns](Images/daily_return_S&P500.png)
 
