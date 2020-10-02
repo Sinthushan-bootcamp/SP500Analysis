@@ -3,7 +3,7 @@ Exploring algorithmic trading techniques applied to a basket of securities
 # Group 3 Project-2 (UofT FinTech Bootcamp)
 
 __Title__: Using Machine Learning to select a portfolio of stocks mimicking and beating S&P500<br />
-__Group members__: Amar Munipalle, Nitesh Jain, Sinthushan, Veldurai Lakshmanan <br />
+__Group members__: Amar Munipalle, Nitesh Jain, Sinthushan Sooriyakuamar, Veldurai Lakshmanan <br />
 
 ## 1. Introduction of the Project
 
@@ -14,12 +14,19 @@ This project uses Principal Component Analysis (PCA) to select a portfolio of st
 | Tool | Details |
 | ---- | ------- |
 | Language | Python 3.0 implemented through Jupyter Notebook |
-| Libraries |  Data preparation and Visualization: Pandas, Hvplot, SciKit Learn, Numpy and Plotly |
+| Libraries |  Data preparation and Visualization: Pandas, Hvplot, SciKit Learn, Numpy and Plotly, XGBoost |
 | APIs | Yahoo Finance, Beautiful Soup, Alpaca trade API, Quandl,  |
 
-### 1.2 Data sources and preparation
+### 1.2 Related Files
 
-The historical data of S&P500 was downloaded from Yahoo Finance and was manipulated using Pandas functions. Using this data, the daily returns of individual stocks and cumulative returns of S&P500 stocks was deterined.
+[Trading Algo ipynb File](TradingAlgo.ipynb)
+
+[S&P 500 Closing Price Data CSV File](data.csv)
+
+
+### 1.3 Data sources and preparation
+
+The historical data of S&P500 was downloaded from Yahoo Finance and was manipulated using Pandas functions. Using this data, the daily returns of individual stocks and cumulative returns of S&P500 stocks was determined.
 
 ![Individual Returns](Images/daily_return_S&P500.png)
 
@@ -102,35 +109,28 @@ After running the machine learning model, XG Boost classifier, on the selected s
 
 <p align="center">
 <img src="Images/KMB.png" width="450" height="350"/>
-</p>
-
 <p align="center">
 1. Kimberley Clark Corp
+</p>
 </p>
 
 <p align="center">
 <img src="Images/CL.png" width="450" height="350"/>
-</p>
-
 <p align="center">
 2. Colgate Palmolive Comp
 </p>
-
+</p>
 
 <p align="center">
 <img src="Images/COST.png" width="450" height="350"/>
-</p>
-
 <p align="center">
 3. Costco Wholesale Corp
 </p>
+
+
 </p>
-
-
 <p align="center">
 <img src="Images/JNJ.png" width="450" height="350"/>
-</p>
-
 <p align="center">
 4. Johnson & Johnson
 </p>
@@ -139,49 +139,56 @@ After running the machine learning model, XG Boost classifier, on the selected s
 
 <p align="center">
 <img src="Images/DG.png" width="450" height="350"/>
-</p>
-
 <p align="center">
 5. Dollar General Corp
 </p>
-
+</p>
 
 <p align="center">
 <img src="Images/CPB.png" width="450" height="350"/>
-</p>
-
 <p align="center">
 6. Campbell Soup Company
 </p>
-
+</p>
 
 <p align="center">
 <img src="Images/AKAM.png" width="450" height="350"/>
-</p>
-
 <p align="center">
 7. Akamai Technologies Inc
 </p>
-
+</p>
 
 
 
 <p align="center">
 <img src="Images/K.png" width="450" height="350"/>
-</p>
-
 <p align="center">
 8. Kinross Gold Corp
 </p>
+</p>
 
+<p align="center">
+<img src="Images/CHRW.png" width="450" height="350"/>
+<p align="center">
+9. CH Robinson Worldwide Inc
+</p>
+</p>
 
 <p align="center">
 <img src="Images/ED.png" width="450" height="350"/>
-</p>
-
 <p align="center">
 10. Consolidated Edison Inc
 </p>
+</p>
+
+
+<p align="center">
+<img src="Images/AMZN.png" width="450" height="350"/>
+<p align="center">
+Extra. Amazon
+</p>
+</p>
+
 
 ## 5. Challenges
 
