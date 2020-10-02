@@ -112,14 +112,14 @@ After running the machine learning model, XG Boost classifier, on the selected s
 <p align="center">
 1. Kimberley Clark Corp
 </p>
-</p>
+
 
 <p align="center">
 <img src="Images/CL.png" width="450" height="350"/>
 <p align="center">
 2. Colgate Palmolive Comp
 </p>
-</p>
+
 
 <p align="center">
 <img src="Images/COST.png" width="450" height="350"/>
@@ -134,7 +134,7 @@ After running the machine learning model, XG Boost classifier, on the selected s
 <p align="center">
 4. Johnson & Johnson
 </p>
-</p>
+
 
 
 <p align="center">
@@ -142,21 +142,21 @@ After running the machine learning model, XG Boost classifier, on the selected s
 <p align="center">
 5. Dollar General Corp
 </p>
-</p>
+
 
 <p align="center">
 <img src="Images/CPB.png" width="450" height="350"/>
 <p align="center">
 6. Campbell Soup Company
 </p>
-</p>
+
 
 <p align="center">
 <img src="Images/AKAM.png" width="450" height="350"/>
 <p align="center">
 7. Akamai Technologies Inc
 </p>
-</p>
+
 
 
 
@@ -165,21 +165,21 @@ After running the machine learning model, XG Boost classifier, on the selected s
 <p align="center">
 8. Kinross Gold Corp
 </p>
-</p>
+
 
 <p align="center">
 <img src="Images/CHRW.png" width="450" height="350"/>
 <p align="center">
 9. CH Robinson Worldwide Inc
 </p>
-</p>
+
 
 <p align="center">
 <img src="Images/ED.png" width="450" height="350"/>
 <p align="center">
 10. Consolidated Edison Inc
 </p>
-</p>
+
 
 
 <p align="center">
@@ -187,7 +187,7 @@ After running the machine learning model, XG Boost classifier, on the selected s
 <p align="center">
 Extra. Amazon
 </p>
-</p>
+
 
 
 ## 5. Challenges
