@@ -23,6 +23,7 @@ This project uses Principal Component Analysis (PCA) to select a portfolio of st
 
 [S&P 500 Closing Price Data CSV File](data.csv)
 
+Important Note: **Since Quandl is a paid service, The data is exported to a csv file**
 
 ### 1.3 Data sources and preparation
 
@@ -31,6 +32,8 @@ The historical data of S&P500 was downloaded from Yahoo Finance and was manipula
 ![Individual Returns](Images/daily_return_S&P500.png)
 
 ![Cumulative Returns](Images/Cum_returns_S&P500.png)
+
+
 
 
 ## 2. Principal Component Analysis (PCA)
