@@ -101,6 +101,19 @@ The train-test split procedure is used to estimate the performance of machine le
 
 We evaluate the accuracy of the best model on actual unseen data to have the estimation more concrete. Meaning that we will use the algorithm on the training set and use the model on the test set afterwards for validation. We split the dataset into 80% training set and 20% test set. The outcome variable "y" is the "good trade" column of the dataframe which signifies the daily returns of the stock when they have beaten S&P500 daily returns.
 
+### 3.4 Evaluation Metrics
+As is the industry standard, we ran our alogrithm through different evaluation metrics and the results are summarised below.
+
+Accuracy Score: 0.9316822206269443
+
+Confusion Matrix
+![Confusion Matrix](Images/confusion_matrix.png)
+
+
+Classification Report:
+![Classification Report](Images/classification_report.png)
+
+
 
 ## 4. Predictions and Conclusion
 
